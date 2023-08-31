@@ -42,8 +42,12 @@ a {
 }
 
 /* main container area beneath menu */
-main {
-    background: rgb(173, 205, 173);
+main {background-color:grey;
+    display: flex;
+    border-style:double;
+    border-radius:15px;
+    border-width:15px;
+    border-color:red;
     display: flex;
 }
 .sidebar {
