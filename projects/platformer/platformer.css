@@ -3,9 +3,11 @@ body {
 }
 
 canvas {
-  background-color: lightgray;
-}
+background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV0-3cIhsiwqv_wT0VtE92LVIDRmfsUrQsqw&usqp=CAU");
+background-image: no-repeat;
+background-size:100%;
 
+}
 img {
   display: none;
 }
