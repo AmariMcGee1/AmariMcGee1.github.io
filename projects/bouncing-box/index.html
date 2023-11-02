@@ -62,7 +62,7 @@
 			//////////////////////////////////////////////////////////////////
 			
 			// TODO 2 - Variable declarations 
-			var positionX = 0;
+			var positionX = 1;
             var points = 0;
 			var speed = 10;
 			
@@ -76,11 +76,10 @@
 			   positionX = positionX + speed;
 			  moveBoxTo(positionX);	
 			  if (positionX > boardWidth) {
-				console.log("Change Direction of the Box");
 				speed = -speed;
 			  }
 			  else if ( positionX < 0) {
-				console.log("change speed to be positive")
+				speed = -speed;
 			  }
 			};
 
@@ -90,10 +89,8 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-				positionX = 0;
+				points = points + 1;
 				changeBoxText(points);
-                points = points + 1;
-				speed = speed + 3;
 
 
 			};
